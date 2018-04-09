@@ -1,0 +1,332 @@
+[2017-12-13 10:07:02 +0000] [30660] [INFO] Starting gunicorn 19.6.0
+[2017-12-13 10:07:02 +0000] [30660] [INFO] Listening at: http://0.0.0.0:8899 (30660)
+[2017-12-13 10:07:02 +0000] [30660] [INFO] Using worker: sync
+[2017-12-13 10:07:02 +0000] [30699] [INFO] Booting worker with pid: 30699
+[2017-12-13 10:07:02 +0000] [30708] [INFO] Booting worker with pid: 30708
+[2017-12-13 10:07:02 +0000] [30709] [INFO] Booting worker with pid: 30709
+[2017-12-13 10:07:02 +0000] [30714] [INFO] Booting worker with pid: 30714
+[2017-12-13 10:08:05 +0000] [30660] [CRITICAL] WORKER TIMEOUT (pid:30714)
+[2017-12-13 10:08:05 +0000] [30714] [INFO] Worker exiting (pid: 30714)
+[2017-12-13 10:08:05 +0000] [30781] [INFO] Booting worker with pid: 30781
+[2017-12-13 11:08:48 +0000] [30660] [CRITICAL] WORKER TIMEOUT (pid:30708)
+[2017-12-13 11:08:48 +0000] [30708] [INFO] Worker exiting (pid: 30708)
+[2017-12-13 11:08:48 +0000] [7997] [INFO] Booting worker with pid: 7997
+[2017-12-15 20:09:24 +0000] [7997] [INFO] Worker exiting (pid: 7997)
+[2017-12-15 20:09:24 +0000] [12362] [INFO] Booting worker with pid: 12362
+[2017-12-15 20:12:51 +0000] [30660] [CRITICAL] WORKER TIMEOUT (pid:30781)
+[2017-12-15 20:12:51 +0000] [30781] [INFO] Worker exiting (pid: 30781)
+[2017-12-15 20:12:52 +0000] [12574] [INFO] Booting worker with pid: 12574
+[2017-12-15 20:13:26 +0000] [12665] [INFO] Booting worker with pid: 12665
+[2017-12-15 20:16:55 +0000] [12574] [INFO] Worker exiting (pid: 12574)
+[2017-12-15 20:16:55 +0000] [30709] [INFO] Worker exiting (pid: 30709)
+[2017-12-15 20:16:55 +0000] [30699] [INFO] Worker exiting (pid: 30699)
+[2017-12-15 20:16:55 +0000] [30660] [INFO] Handling signal: term
+[2017-12-15 20:16:55 +0000] [12665] [INFO] Worker exiting (pid: 12665)
+[2017-12-15 20:16:55 +0000] [30660] [INFO] Shutting down: Master
+[2017-12-15 20:18:18 +0000] [12961] [INFO] Starting gunicorn 19.6.0
+[2017-12-15 20:18:18 +0000] [12961] [INFO] Listening at: http://0.0.0.0:8899 (12961)
+[2017-12-15 20:18:18 +0000] [12961] [INFO] Using worker: sync
+[2017-12-15 20:18:18 +0000] [12966] [INFO] Booting worker with pid: 12966
+[2017-12-15 20:18:18 +0000] [12968] [INFO] Booting worker with pid: 12968
+[2017-12-15 20:18:18 +0000] [12972] [INFO] Booting worker with pid: 12972
+[2017-12-15 20:18:18 +0000] [12977] [INFO] Booting worker with pid: 12977
+[2017-12-20 14:44:02 +0000] [12972] [INFO] Worker exiting (pid: 12972)
+[2017-12-20 14:44:02 +0000] [12966] [INFO] Worker exiting (pid: 12966)
+[2017-12-20 14:44:02 +0000] [12977] [INFO] Worker exiting (pid: 12977)
+[2017-12-20 14:44:02 +0000] [12968] [INFO] Worker exiting (pid: 12968)
+[2017-12-20 14:44:02 +0000] [12961] [INFO] Handling signal: term
+[2017-12-20 14:44:03 +0000] [12961] [INFO] Shutting down: Master
+[2017-12-20 18:59:02 +0000] [8784] [INFO] Starting gunicorn 19.6.0
+[2017-12-20 18:59:02 +0000] [8784] [INFO] Listening at: http://0.0.0.0:8899 (8784)
+[2017-12-20 18:59:02 +0000] [8784] [INFO] Using worker: sync
+[2017-12-20 18:59:02 +0000] [8801] [INFO] Booting worker with pid: 8801
+[2017-12-20 18:59:02 +0000] [8828] [INFO] Booting worker with pid: 8828
+[2017-12-20 18:59:02 +0000] [8829] [INFO] Booting worker with pid: 8829
+[2017-12-20 18:59:02 +0000] [8834] [INFO] Booting worker with pid: 8834
+[2017-12-21 09:10:58 +0000] [8784] [CRITICAL] WORKER TIMEOUT (pid:8834)
+[2017-12-21 09:10:58 +0000] [8784] [CRITICAL] WORKER TIMEOUT (pid:8828)
+[2017-12-21 09:10:58 +0000] [8784] [CRITICAL] WORKER TIMEOUT (pid:8829)
+[2017-12-21 09:10:58 +0000] [8834] [INFO] Worker exiting (pid: 8834)
+[2017-12-21 09:10:58 +0000] [8829] [INFO] Worker exiting (pid: 8829)
+[2017-12-21 09:10:58 +0000] [8828] [INFO] Worker exiting (pid: 8828)
+[2017-12-21 09:10:58 +0000] [25093] [INFO] Booting worker with pid: 25093
+[2017-12-21 09:10:58 +0000] [25094] [INFO] Booting worker with pid: 25094
+[2017-12-21 09:10:58 +0000] [25096] [INFO] Booting worker with pid: 25096
+[2017-12-21 09:10:59 +0000] [8784] [CRITICAL] WORKER TIMEOUT (pid:8801)
+[2017-12-21 09:10:59 +0000] [8801] [INFO] Worker exiting (pid: 8801)
+[2017-12-21 09:10:59 +0000] [25108] [INFO] Booting worker with pid: 25108
+[2017-12-21 10:23:49 +0000] [25093] [INFO] Worker exiting (pid: 25093)
+[2017-12-21 10:23:49 +0000] [25094] [INFO] Worker exiting (pid: 25094)
+[2017-12-21 10:23:49 +0000] [25096] [INFO] Worker exiting (pid: 25096)
+[2017-12-21 10:23:49 +0000] [25108] [INFO] Worker exiting (pid: 25108)
+[2017-12-21 10:23:49 +0000] [8784] [INFO] Handling signal: term
+[2017-12-21 10:23:49 +0000] [8784] [INFO] Shutting down: Master
+[2017-12-21 10:23:53 +0000] [29580] [INFO] Starting gunicorn 19.6.0
+[2017-12-21 10:23:53 +0000] [29580] [INFO] Listening at: http://0.0.0.0:8899 (29580)
+[2017-12-21 10:23:53 +0000] [29580] [INFO] Using worker: sync
+[2017-12-21 10:23:53 +0000] [29585] [INFO] Booting worker with pid: 29585
+[2017-12-21 10:23:53 +0000] [29590] [INFO] Booting worker with pid: 29590
+[2017-12-21 10:23:53 +0000] [29592] [INFO] Booting worker with pid: 29592
+[2017-12-21 10:23:53 +0000] [29596] [INFO] Booting worker with pid: 29596
+[2017-12-21 19:37:37 +0000] [29585] [INFO] Worker exiting (pid: 29585)
+[2017-12-21 19:37:37 +0000] [29596] [INFO] Worker exiting (pid: 29596)
+[2017-12-21 19:37:37 +0000] [29592] [INFO] Worker exiting (pid: 29592)
+[2017-12-21 19:37:37 +0000] [29590] [INFO] Worker exiting (pid: 29590)
+[2017-12-21 19:37:37 +0000] [29580] [INFO] Handling signal: term
+[2017-12-21 19:37:37 +0000] [29580] [INFO] Shutting down: Master
+[2017-12-21 19:37:41 +0000] [28780] [INFO] Starting gunicorn 19.6.0
+[2017-12-21 19:37:41 +0000] [28780] [INFO] Listening at: http://0.0.0.0:8899 (28780)
+[2017-12-21 19:37:41 +0000] [28780] [INFO] Using worker: sync
+[2017-12-21 19:37:41 +0000] [28785] [INFO] Booting worker with pid: 28785
+[2017-12-21 19:37:41 +0000] [28786] [INFO] Booting worker with pid: 28786
+[2017-12-21 19:37:41 +0000] [28791] [INFO] Booting worker with pid: 28791
+[2017-12-21 19:37:41 +0000] [28792] [INFO] Booting worker with pid: 28792
+[2017-12-22 13:46:06 +0000] [28791] [INFO] Worker exiting (pid: 28791)
+[2017-12-22 13:46:06 +0000] [28785] [INFO] Worker exiting (pid: 28785)
+[2017-12-22 13:46:06 +0000] [28780] [INFO] Handling signal: term
+[2017-12-22 13:46:06 +0000] [28786] [INFO] Worker exiting (pid: 28786)
+[2017-12-22 13:46:06 +0000] [28792] [INFO] Worker exiting (pid: 28792)
+[2017-12-22 13:46:06 +0000] [28780] [INFO] Shutting down: Master
+[2017-12-22 13:46:09 +0000] [25925] [INFO] Starting gunicorn 19.6.0
+[2017-12-22 13:46:09 +0000] [25925] [INFO] Listening at: http://0.0.0.0:8899 (25925)
+[2017-12-22 13:46:09 +0000] [25925] [INFO] Using worker: sync
+[2017-12-22 13:46:09 +0000] [25930] [INFO] Booting worker with pid: 25930
+[2017-12-22 13:46:09 +0000] [25931] [INFO] Booting worker with pid: 25931
+[2017-12-22 13:46:09 +0000] [25940] [INFO] Booting worker with pid: 25940
+[2017-12-22 13:46:09 +0000] [25944] [INFO] Booting worker with pid: 25944
+[2017-12-28 20:11:21 +0000] [25925] [CRITICAL] WORKER TIMEOUT (pid:25944)
+[2017-12-28 20:11:21 +0000] [25944] [INFO] Worker exiting (pid: 25944)
+[2017-12-28 20:11:21 +0000] [22561] [INFO] Booting worker with pid: 22561
+[2018-01-02 10:14:51 +0000] [25925] [CRITICAL] WORKER TIMEOUT (pid:22561)
+[2018-01-02 10:14:51 +0000] [25925] [CRITICAL] WORKER TIMEOUT (pid:25940)
+[2018-01-02 10:14:51 +0000] [25940] [INFO] Worker exiting (pid: 25940)
+[2018-01-02 10:14:51 +0000] [22561] [INFO] Worker exiting (pid: 22561)
+[2018-01-02 10:14:51 +0000] [9994] [INFO] Booting worker with pid: 9994
+[2018-01-02 10:14:51 +0000] [9995] [INFO] Booting worker with pid: 9995
+[2018-01-02 15:16:52 +0000] [9994] [INFO] Worker exiting (pid: 9994)
+[2018-01-02 15:16:52 +0000] [9995] [INFO] Worker exiting (pid: 9995)
+[2018-01-02 15:16:52 +0000] [25925] [INFO] Handling signal: term
+[2018-01-02 15:16:52 +0000] [25931] [INFO] Worker exiting (pid: 25931)
+[2018-01-02 15:16:52 +0000] [25930] [INFO] Worker exiting (pid: 25930)
+[2018-01-02 15:16:52 +0000] [25925] [INFO] Shutting down: Master
+[2018-01-02 15:18:09 +0000] [27592] [INFO] Starting gunicorn 19.6.0
+[2018-01-02 15:18:09 +0000] [27592] [INFO] Listening at: http://0.0.0.0:8899 (27592)
+[2018-01-02 15:18:09 +0000] [27592] [INFO] Using worker: sync
+[2018-01-02 15:18:09 +0000] [27597] [INFO] Booting worker with pid: 27597
+[2018-01-02 15:18:09 +0000] [27602] [INFO] Booting worker with pid: 27602
+[2018-01-02 15:18:09 +0000] [27603] [INFO] Booting worker with pid: 27603
+[2018-01-02 15:18:09 +0000] [27604] [INFO] Booting worker with pid: 27604
+[2018-01-03 09:22:52 +0000] [27592] [CRITICAL] WORKER TIMEOUT (pid:27602)
+[2018-01-03 09:22:52 +0000] [27592] [CRITICAL] WORKER TIMEOUT (pid:27597)
+[2018-01-03 09:22:52 +0000] [27602] [INFO] Worker exiting (pid: 27602)
+[2018-01-03 09:22:52 +0000] [27597] [INFO] Worker exiting (pid: 27597)
+[2018-01-03 09:22:52 +0000] [25553] [INFO] Booting worker with pid: 25553
+[2018-01-03 09:22:52 +0000] [25558] [INFO] Booting worker with pid: 25558
+mv: cannot stat ‘/tmp/house4.xls’: No such file or directory
+[2018-01-23 09:25:00 +0000] [27592] [CRITICAL] WORKER TIMEOUT (pid:25553)
+[2018-01-23 09:25:00 +0000] [27592] [CRITICAL] WORKER TIMEOUT (pid:27603)
+[2018-01-23 09:25:00 +0000] [27592] [CRITICAL] WORKER TIMEOUT (pid:25558)
+[2018-01-23 09:25:00 +0000] [25553] [INFO] Worker exiting (pid: 25553)
+[2018-01-23 09:25:00 +0000] [27603] [INFO] Worker exiting (pid: 27603)
+[2018-01-23 09:25:00 +0000] [25558] [INFO] Worker exiting (pid: 25558)
+[2018-01-23 09:25:00 +0000] [10412] [INFO] Booting worker with pid: 10412
+[2018-01-23 09:25:00 +0000] [10413] [INFO] Booting worker with pid: 10413
+[2018-01-23 09:25:00 +0000] [10414] [INFO] Booting worker with pid: 10414
+[2018-02-01 15:27:42 +0000] [27592] [CRITICAL] WORKER TIMEOUT (pid:10412)
+[2018-02-01 15:27:42 +0000] [27592] [CRITICAL] WORKER TIMEOUT (pid:10413)
+[2018-02-01 15:27:42 +0000] [10412] [INFO] Worker exiting (pid: 10412)
+[2018-02-01 15:27:42 +0000] [27592] [CRITICAL] WORKER TIMEOUT (pid:10414)
+[2018-02-01 15:27:42 +0000] [27592] [CRITICAL] WORKER TIMEOUT (pid:27604)
+[2018-02-01 15:27:42 +0000] [10413] [INFO] Worker exiting (pid: 10413)
+[2018-02-01 15:27:42 +0000] [10414] [INFO] Worker exiting (pid: 10414)
+[2018-02-01 15:27:42 +0000] [27604] [INFO] Worker exiting (pid: 27604)
+[2018-02-01 15:27:42 +0000] [11396] [INFO] Booting worker with pid: 11396
+[2018-02-01 15:27:43 +0000] [11397] [INFO] Booting worker with pid: 11397
+[2018-02-01 15:27:43 +0000] [11398] [INFO] Booting worker with pid: 11398
+[2018-02-01 15:27:43 +0000] [11399] [INFO] Booting worker with pid: 11399
+[2018-02-01 19:23:19 +0000] [27592] [CRITICAL] WORKER TIMEOUT (pid:11396)
+[2018-02-01 19:23:19 +0000] [11396] [INFO] Worker exiting (pid: 11396)
+[2018-02-01 19:23:19 +0000] [22407] [INFO] Booting worker with pid: 22407
+[2018-03-14 17:04:50 +0000] [27592] [CRITICAL] WORKER TIMEOUT (pid:11397)
+[2018-03-14 17:04:50 +0000] [11397] [INFO] Worker exiting (pid: 11397)
+[2018-03-14 17:04:50 +0000] [22308] [INFO] Booting worker with pid: 22308
+mv: cannot stat ‘/tmp/house4.xls’: No such file or directory
+mv: cannot stat ‘/tmp/house4.xls’: No such file or directory
+mv: cannot stat ‘/tmp/house4.xls’: No such file or directory
+[2018-04-02 01:53:38 +0000] [27592] [CRITICAL] WORKER TIMEOUT (pid:11399)
+[2018-04-02 01:53:38 +0000] [11399] [INFO] Worker exiting (pid: 11399)
+[2018-04-02 01:53:38 +0000] [3063] [INFO] Booting worker with pid: 3063
+[2018-04-03 15:37:04 +0000] [10387] [INFO] Starting gunicorn 19.6.0
+[2018-04-03 15:37:04 +0000] [10387] [INFO] Listening at: http://0.0.0.0:8900 (10387)
+[2018-04-03 15:37:04 +0000] [10387] [INFO] Using worker: sync
+[2018-04-03 15:37:04 +0000] [10395] [INFO] Booting worker with pid: 10395
+[2018-04-03 15:37:04 +0000] [10396] [INFO] Booting worker with pid: 10396
+[2018-04-03 15:37:04 +0000] [10397] [INFO] Booting worker with pid: 10397
+[2018-04-03 15:37:04 +0000] [10410] [INFO] Booting worker with pid: 10410
+[2018-04-03 15:55:03 +0000] [32728] [INFO] Starting gunicorn 19.3.0
+[2018-04-03 15:55:03 +0000] [32728] [INFO] Listening at: http://0.0.0.0:8900 (32728)
+[2018-04-03 15:55:03 +0000] [32728] [INFO] Using worker: sync
+[2018-04-03 15:55:03 +0000] [32733] [INFO] Booting worker with pid: 32733
+[2018-04-03 15:55:03 +0000] [32738] [INFO] Booting worker with pid: 32738
+[2018-04-03 15:55:03 +0000] [32739] [INFO] Booting worker with pid: 32739
+[2018-04-03 15:55:03 +0000] [32740] [INFO] Booting worker with pid: 32740
+[2018-04-03 15:56:36 +0000] [32728] [CRITICAL] WORKER TIMEOUT (pid:32738)
+[2018-04-03 15:56:36 +0000] [32728] [CRITICAL] WORKER TIMEOUT (pid:32739)
+[2018-04-03 15:56:36 +0000] [32728] [CRITICAL] WORKER TIMEOUT (pid:32740)
+[2018-04-03 15:56:36 +0000] [32728] [CRITICAL] WORKER TIMEOUT (pid:32733)
+[2018-04-03 15:56:36 +0000] [32738] [INFO] Worker exiting (pid: 32738)
+[2018-04-03 15:56:36 +0000] [32739] [INFO] Worker exiting (pid: 32739)
+[2018-04-03 15:56:36 +0000] [32740] [INFO] Worker exiting (pid: 32740)
+[2018-04-03 15:56:36 +0000] [32733] [INFO] Worker exiting (pid: 32733)
+[2018-04-03 15:56:36 +0000] [306] [INFO] Booting worker with pid: 306
+[2018-04-03 15:56:36 +0000] [307] [INFO] Booting worker with pid: 307
+[2018-04-03 15:56:36 +0000] [308] [INFO] Booting worker with pid: 308
+[2018-04-03 15:56:36 +0000] [309] [INFO] Booting worker with pid: 309
+[2018-04-03 15:57:40 +0000] [307] [INFO] Worker exiting (pid: 307)
+[2018-04-03 15:57:40 +0000] [306] [INFO] Worker exiting (pid: 306)
+[2018-04-03 15:57:40 +0000] [308] [INFO] Worker exiting (pid: 308)
+[2018-04-03 15:57:40 +0000] [309] [INFO] Worker exiting (pid: 309)
+[2018-04-03 15:57:40 +0000] [32728] [INFO] Handling signal: term
+[2018-04-03 15:57:40 +0000] [32728] [INFO] Shutting down: Master
+[2018-04-03 16:16:17 +0000] [759] [INFO] Starting gunicorn 19.3.0
+[2018-04-03 16:16:17 +0000] [759] [INFO] Listening at: http://0.0.0.0:8900 (759)
+[2018-04-03 16:16:17 +0000] [759] [INFO] Using worker: sync
+[2018-04-03 16:16:17 +0000] [764] [INFO] Booting worker with pid: 764
+[2018-04-03 16:16:17 +0000] [769] [INFO] Booting worker with pid: 769
+[2018-04-03 16:16:17 +0000] [772] [INFO] Booting worker with pid: 772
+[2018-04-03 16:16:17 +0000] [779] [INFO] Booting worker with pid: 779
+[2018-04-03 17:12:34 +0000] [759] [CRITICAL] WORKER TIMEOUT (pid:769)
+[2018-04-03 17:12:34 +0000] [759] [CRITICAL] WORKER TIMEOUT (pid:779)
+[2018-04-03 17:12:34 +0000] [759] [CRITICAL] WORKER TIMEOUT (pid:764)
+[2018-04-03 17:12:34 +0000] [759] [CRITICAL] WORKER TIMEOUT (pid:772)
+[2018-04-03 17:12:34 +0000] [769] [INFO] Worker exiting (pid: 769)
+[2018-04-03 17:12:34 +0000] [764] [INFO] Worker exiting (pid: 764)
+[2018-04-03 17:12:34 +0000] [772] [INFO] Worker exiting (pid: 772)
+1701
+[2018-04-03 17:12:34 +0000] [779] [INFO] Worker exiting (pid: 779)
+2524
+[2018-04-03 17:12:34 +0000] [1575] [INFO] Booting worker with pid: 1575
+[2018-04-03 17:12:34 +0000] [1577] [INFO] Booting worker with pid: 1577
+[2018-04-03 17:12:34 +0000] [1586] [INFO] Booting worker with pid: 1586
+[2018-04-03 17:12:34 +0000] [1591] [INFO] Booting worker with pid: 1591
+[2018-04-08 10:58:59 +0000] [759] [CRITICAL] WORKER TIMEOUT (pid:1586)
+[2018-04-08 10:58:59 +0000] [759] [CRITICAL] WORKER TIMEOUT (pid:1575)
+[2018-04-08 10:58:59 +0000] [759] [CRITICAL] WORKER TIMEOUT (pid:1577)
+[2018-04-08 10:58:59 +0000] [759] [CRITICAL] WORKER TIMEOUT (pid:1591)
+[2018-04-08 10:58:59 +0000] [1586] [INFO] Worker exiting (pid: 1586)
+[2018-04-08 10:58:59 +0000] [1575] [INFO] Worker exiting (pid: 1575)
+[2018-04-08 10:58:59 +0000] [1577] [INFO] Worker exiting (pid: 1577)
+10878
+[2018-04-08 10:58:59 +0000] [1591] [INFO] Worker exiting (pid: 1591)
+[2018-04-08 10:58:59 +0000] [20634] [INFO] Booting worker with pid: 20634
+[2018-04-08 10:58:59 +0000] [20635] [INFO] Booting worker with pid: 20635
+[2018-04-08 10:58:59 +0000] [20636] [INFO] Booting worker with pid: 20636
+[2018-04-08 10:58:59 +0000] [20645] [INFO] Booting worker with pid: 20645
+[2018-04-08 10:59:29 +0000] [759] [CRITICAL] WORKER TIMEOUT (pid:20634)
+[2018-04-08 10:59:29 +0000] [20634] [INFO] Worker exiting (pid: 20634)
+[2018-04-08 10:59:29 +0000] [20660] [INFO] Booting worker with pid: 20660
+[2018-04-08 11:08:29 +0000] [759] [CRITICAL] WORKER TIMEOUT (pid:20660)
+[2018-04-08 11:08:29 +0000] [759] [CRITICAL] WORKER TIMEOUT (pid:20645)
+[2018-04-08 11:08:29 +0000] [759] [CRITICAL] WORKER TIMEOUT (pid:20635)
+[2018-04-08 11:08:29 +0000] [759] [CRITICAL] WORKER TIMEOUT (pid:20636)
+[2018-04-08 11:08:29 +0000] [20660] [INFO] Worker exiting (pid: 20660)
+[2018-04-08 11:08:29 +0000] [20635] [INFO] Worker exiting (pid: 20635)
+[2018-04-08 11:08:29 +0000] [20636] [INFO] Worker exiting (pid: 20636)
+[2018-04-08 11:08:29 +0000] [20645] [INFO] Worker exiting (pid: 20645)
+[2018-04-08 11:08:29 +0000] [20785] [INFO] Booting worker with pid: 20785
+[2018-04-08 11:08:29 +0000] [20790] [INFO] Booting worker with pid: 20790
+[2018-04-08 11:08:29 +0000] [20795] [INFO] Booting worker with pid: 20795
+[2018-04-08 11:08:29 +0000] [20796] [INFO] Booting worker with pid: 20796
+[2018-04-08 13:00:24 +0000] [11638] [INFO] Starting gunicorn 19.7.1
+[2018-04-08 13:00:24 +0000] [11638] [INFO] Listening at: http://0.0.0.0:8900 (11638)
+[2018-04-08 13:00:24 +0000] [11638] [INFO] Using worker: sync
+[2018-04-08 13:00:24 +0000] [11643] [INFO] Booting worker with pid: 11643
+[2018-04-08 13:00:24 +0000] [11644] [INFO] Booting worker with pid: 11644
+[2018-04-08 13:00:24 +0000] [11645] [INFO] Booting worker with pid: 11645
+[2018-04-08 13:00:24 +0000] [11646] [INFO] Booting worker with pid: 11646
+[2018-04-08 13:00:27 +0000] [11664] [INFO] Booting worker with pid: 11664
+[2018-04-08 13:02:27 +0000] [11638] [CRITICAL] WORKER TIMEOUT (pid:11664)
+[2018-04-08 13:02:27 +0000] [11638] [CRITICAL] WORKER TIMEOUT (pid:11645)
+[2018-04-08 13:02:27 +0000] [11638] [CRITICAL] WORKER TIMEOUT (pid:11646)
+[2018-04-08 13:02:27 +0000] [11664] [INFO] Worker exiting (pid: 11664)
+[2018-04-08 13:02:27 +0000] [11645] [INFO] Worker exiting (pid: 11645)
+[2018-04-08 13:02:27 +0000] [11646] [INFO] Worker exiting (pid: 11646)
+[2018-04-08 13:02:27 +0000] [11638] [CRITICAL] WORKER TIMEOUT (pid:11644)
+[2018-04-08 13:02:27 +0000] [11644] [INFO] Worker exiting (pid: 11644)
+[2018-04-08 13:02:27 +0000] [11682] [INFO] Booting worker with pid: 11682
+[2018-04-08 13:02:27 +0000] [11683] [INFO] Booting worker with pid: 11683
+[2018-04-08 13:02:27 +0000] [11684] [INFO] Booting worker with pid: 11684
+[2018-04-08 13:02:27 +0000] [11685] [INFO] Booting worker with pid: 11685
+[2018-04-08 13:02:58 +0000] [11638] [CRITICAL] WORKER TIMEOUT (pid:11682)
+[2018-04-08 13:02:58 +0000] [11682] [INFO] Worker exiting (pid: 11682)
+[2018-04-08 13:02:58 +0000] [11707] [INFO] Booting worker with pid: 11707
+[2018-04-08 13:03:13 +0000] [11638] [INFO] Handling signal: term
+[2018-04-08 13:03:13 +0000] [11683] [INFO] Worker exiting (pid: 11683)
+[2018-04-08 13:03:13 +0000] [11684] [INFO] Worker exiting (pid: 11684)
+[2018-04-08 13:03:13 +0000] [11685] [INFO] Worker exiting (pid: 11685)
+[2018-04-08 13:03:13 +0000] [11707] [INFO] Worker exiting (pid: 11707)
+[2018-04-08 13:03:13 +0000] [11638] [INFO] Shutting down: Master
+[2018-04-08 14:59:37 +0000] [11985] [INFO] Starting gunicorn 19.7.1
+[2018-04-08 14:59:37 +0000] [11985] [INFO] Listening at: http://0.0.0.0:8900 (11985)
+[2018-04-08 14:59:37 +0000] [11985] [INFO] Using worker: sync
+[2018-04-08 14:59:37 +0000] [11990] [INFO] Booting worker with pid: 11990
+[2018-04-08 14:59:37 +0000] [11991] [INFO] Booting worker with pid: 11991
+[2018-04-08 14:59:37 +0000] [11992] [INFO] Booting worker with pid: 11992
+[2018-04-08 14:59:37 +0000] [11993] [INFO] Booting worker with pid: 11993
+[2018-04-08 15:00:19 +0000] [11985] [INFO] Handling signal: term
+[2018-04-08 15:00:19 +0000] [11990] [INFO] Worker exiting (pid: 11990)
+[2018-04-08 15:00:19 +0000] [11991] [INFO] Worker exiting (pid: 11991)
+[2018-04-08 15:00:19 +0000] [11992] [INFO] Worker exiting (pid: 11992)
+[2018-04-08 15:00:19 +0000] [11993] [INFO] Worker exiting (pid: 11993)
+[2018-04-08 15:00:19 +0000] [11985] [INFO] Shutting down: Master
+[2018-04-08 15:16:03 +0000] [12073] [INFO] Starting gunicorn 19.7.1
+[2018-04-08 15:16:03 +0000] [12073] [INFO] Listening at: http://0.0.0.0:8900 (12073)
+[2018-04-08 15:16:03 +0000] [12073] [INFO] Using worker: sync
+[2018-04-08 15:16:03 +0000] [12078] [INFO] Booting worker with pid: 12078
+[2018-04-08 15:16:03 +0000] [12079] [INFO] Booting worker with pid: 12079
+[2018-04-08 15:16:03 +0000] [12080] [INFO] Booting worker with pid: 12080
+[2018-04-08 15:16:03 +0000] [12081] [INFO] Booting worker with pid: 12081
+[2018-04-08 15:28:31 +0000] [12273] [INFO] Starting gunicorn 19.7.1
+[2018-04-08 15:28:31 +0000] [12273] [INFO] Listening at: http://0.0.0.0:8900 (12273)
+[2018-04-08 15:28:31 +0000] [12273] [INFO] Using worker: sync
+[2018-04-08 15:28:31 +0000] [12278] [INFO] Booting worker with pid: 12278
+[2018-04-08 15:28:31 +0000] [12279] [INFO] Booting worker with pid: 12279
+[2018-04-08 15:54:55 +0000] [12273] [INFO] Handling signal: term
+[2018-04-08 15:54:55 +0000] [12278] [INFO] Worker exiting (pid: 12278)
+11291
+[2018-04-08 15:54:55 +0000] [12279] [INFO] Worker exiting (pid: 12279)
+11291
+[2018-04-08 15:54:55 +0000] [12273] [INFO] Shutting down: Master
+[2018-04-09 10:17:39 +0000] [17038] [INFO] Starting gunicorn 19.7.1
+[2018-04-09 10:17:39 +0000] [17038] [INFO] Listening at: http://0.0.0.0:8900 (17038)
+[2018-04-09 10:17:39 +0000] [17038] [INFO] Using worker: sync
+[2018-04-09 10:17:39 +0000] [17043] [INFO] Booting worker with pid: 17043
+[2018-04-09 10:17:39 +0000] [17044] [INFO] Booting worker with pid: 17044
+[2018-04-09 10:20:39 +0000] [17038] [CRITICAL] WORKER TIMEOUT (pid:17043)
+[2018-04-09 10:20:39 +0000] [17043] [INFO] Worker exiting (pid: 17043)
+6915
+6917
+6923
+6931
+6926
+6922
+6921
+6928
+6927
+6918
+6933
+[2018-04-09 10:20:39 +0000] [17058] [INFO] Booting worker with pid: 17058
+[2018-04-09 10:20:45 +0000] [17038] [CRITICAL] WORKER TIMEOUT (pid:17044)
+[2018-04-09 10:20:45 +0000] [17044] [INFO] Worker exiting (pid: 17044)
+6914
+6916
+6929
+6924
+6925
+6932
+6930
+6920
+6933
+6919
+6914
+[2018-04-09 10:20:45 +0000] [17063] [INFO] Booting worker with pid: 17063

@@ -1,0 +1,13 @@
+Mon,02 Apr 2018 17:21:18 _internal.py[line:87] INFO  * Running on http://0.0.0.0:8900/ (Press CTRL+C to quit)
+Mon,02 Apr 2018 17:21:18 _internal.py[line:87] INFO  * Restarting with stat
+Mon,02 Apr 2018 17:21:19 _internal.py[line:87] WARNING  * Debugger is active!
+Mon,02 Apr 2018 17:21:19 _internal.py[line:87] INFO  * Debugger pin code: 297-890-712
+Mon,02 Apr 2018 17:22:04 _internal.py[line:87] INFO 222.244.77.18 - - [02/Apr/2018 17:22:04] "GET /sucai_api/all HTTP/1.1" 200 -
+Mon,02 Apr 2018 17:22:04 _internal.py[line:87] INFO 222.244.77.18 - - [02/Apr/2018 17:22:04] "GET /favicon.ico HTTP/1.1" 404 -
+Mon,02 Apr 2018 17:28:14 _internal.py[line:87] INFO  * Running on http://0.0.0.0:8900/ (Press CTRL+C to quit)
+Mon,02 Apr 2018 17:28:14 _internal.py[line:87] INFO  * Restarting with stat
+Mon,02 Apr 2018 17:28:14 _internal.py[line:87] WARNING  * Debugger is active!
+Mon,02 Apr 2018 17:28:14 _internal.py[line:87] INFO  * Debugger pin code: 297-890-712
+Mon,02 Apr 2018 17:28:17 _internal.py[line:87] INFO 222.244.77.18 - - [02/Apr/2018 17:28:17] "GET /sucai_api/all HTTP/1.1" 200 -
+Mon,02 Apr 2018 17:29:45 _internal.py[line:87] INFO  * Detected change in '/home/zhanghongfei/venv_spider/houseAPI/sucaiapi/app/sucai/sucai_api.py', reloading
+Mon,02 Apr 2018 17:29:46 _internal.py[line:87] INFO  * Restarting with stat

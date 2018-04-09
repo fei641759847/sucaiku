@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>素材库</title>
+    <style>
+      .title{text-align:center;}
+      .outbox{
+        width:960px;
+        border-radius:20px 20px;
+        margin:5px auto;
+        padding:20px 20px;
+        background:whitesmoke;
+      }
+      .page{
+          width:300px;
+          margin:10px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outbox">
+    <h1 class="title">素材库</h1>
+        <span>素材</span>
+          <a href="/sucai_api/?style=tiaofu_sc">条幅</a>
+          <a href="/sucai_api/?style=tubiao_sc">图表</a>
+          <a href="/sucai_api/?style=tubiao1_sc">图标</a>
+          <a href="/sucai_api/?style=xiangkuang_sc">相框</a>
+          <a href="/sucai_api/?style=xiantiao_sc">线条</a>
+          <a href="/sucai_api/?style=xingzhuang_sc">形状</a>
+        <br />
+        <span>背景</span>
+          <a href="/sucai_api/?style=tuijian_bj">推荐</a>
+          <a href="/sucai_api/?style=wenli_bj">纹理</a>
+        <br />
+        <span>图片</span>
+          <a href="/sucai_api/?style=tuijian">推荐</a>
+          <a href="/sucai_api/?style=canyin">餐饮</a>
+          <a href="/sucai_api/?style=cuxiao">促销</a>
+          <a href="/sucai_api/?style=huiyi">会议</a>
+          <a href="/sucai_api/?style=hunli">婚礼</a>
+          <a href="/sucai_api/?style=jieri">节日</a>
+          <a href="/sucai_api/?style=shengri">生日</a>
+          <a href="/sucai_api/?style=tiezhi">贴纸</a>
+          <a href="/sucai_api/?style=xiangce">相册</a>
+          <a href="/sucai_api/?style=zhaopin">招聘</a>
+        <br />
+        <div class="imgbox">
+            {% for img in imglist %}
+            <div style="width:200px;border:1px solid orange;border-radius:8px 8px;padding:10px 10px;margin:5px 5px;float:left">
+            <a href="/sucai_api/down/{{ img['id'] }}" target="_blank"><img src="/sucai_api/down_thumb/{{ img['id'] }}" width="100%"></a>
+            </div>
+            {% endfor %}
+        </div>
+        <div style="clear:both"></div>
+        <div class="page">
+            <a href="/sucai_api/?style={{ dirname }}&page={{ f_page }}">上一页</a>
+            <span>当前第{{ page }}页</span>
+            <a href="/sucai_api/?style={{ dirname }}&page={{ n_page }}">下一页</a>
+            <span>共{{ p }}页</span>
+        </div>
+        <div>
+            <span>json数据说明：</span><br />
+            <span>url示例：http://120.76.153.172:8900/sucai_api/api?style=cuxiao&page=1&length=20</span><br />
+            <span>style：类型，page：起始页，length：数量（默认为20条）</span><br />
+            <a href="/sucai_api/api?style={{ dirname }}&page={{ page }}&length=20">获取本页json数据</a>
+        </div>
+    </div>
+  </body>
+</html>
+
